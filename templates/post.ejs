@@ -94,6 +94,14 @@
                         <%- include('./includes/disqus') %>
                             <% } %>
                                 <% } %>
+
+    <script>
+        window.onload = function() {
+            $(".post-content a").each(function(){
+                $(this).attr('target', '_blank');
+            });
+        }
+    </script>
 </body>
 
 </html>
