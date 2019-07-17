@@ -1,22 +1,13 @@
 # Gridea 主题 Lemon
 
-## 主题截图
+Forked from [Mrcxt/gridea-theme-lemon](https://github.com/Mrcxt/gridea-theme-lemon)
 
-<div align="center">
- <p>首页</p>
-  <img src="./images/home.png">
- <p>内容页</p>
-  <img src="./images/post.png">
- <p>标签页</p>
-  <img src="./images/tags.png">
- <p>归档页</p>
-  <img src="./images/archives.png">
-</div>
+### 做了以下几个修改
 
-## 安装
-
-推荐使用 `git clone` 的方式下载到 Gridea 客户端的 theme 目录。方便后期更新升级。
-
-- 打开 theme 目录：`~/Documents/gridea/themes`
-- 在当前目录执行 `https://github.com/Mrcxt/gridea-theme-lemon.git`
-- 重启 Gridea 客户端查看效果
+- [x] 1. 文章中的外链，修改为#2e9fff并显示下划线。方便在文章中看到链接
+- [x] 2. 文章中的代码块，取消第一行的padding，左端对齐
+- [x] 3. 修复文章中列表不显示列表标记
+- [x] 4. 调整首页文章列表中图片大小 250*150-->180*100
+- [x] 5. 标签页调整样式，修复间距过大
+- [x] 6. 底部去掉RSS
+- [x] 7. 移动端顶部导航栏居中显示logo和nickName
