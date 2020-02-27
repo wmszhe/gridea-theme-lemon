@@ -34,6 +34,16 @@ app.get('/post/:postName', async(req, res) => {
 })
 
 /**
+ * Tools Page
+ */
+app.get('/tools', async (req, res) => {
+    const response = await axios.get('https://raw.githubusercontent.com/getgridea/mock-json/master/list.json')
+    res.render('index', {
+        ...response.data
+    })
+})
+
+/**
  * Archives Page
  */
 app.get('/archives', async(req, res) => {
