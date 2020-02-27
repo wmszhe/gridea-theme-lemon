@@ -12,3 +12,4 @@ Forked from [Mrcxt/gridea-theme-lemon](https://github.com/Mrcxt/gridea-theme-lem
 - [x] 6. 标签页调整样式，修复间距过大
 - [x] 7. 底部去掉RSS
 - [x] 8. 移动端顶部导航栏居中显示logo和nickName
+- [x] 9. 修改头像框样式
